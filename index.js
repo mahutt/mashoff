@@ -18,7 +18,7 @@ const leftPlayer = new Fighter({
     sprites: {
         idle: {
             imageSrc: "./images/left/idle.png",
-            framesMax: 2,
+            framesMax: 1,
             framesHold: 50,
         },
         punch: {
@@ -32,7 +32,7 @@ const leftPlayer = new Fighter({
 
 const rightPlayer = new Fighter({
     position: {
-        x: 45,
+        x: 50,
         y: 0,
     },
     offset: {
@@ -45,7 +45,7 @@ const rightPlayer = new Fighter({
     sprites: {
         idle: {
             imageSrc: "./images/right/idle.png",
-            framesMax: 2,
+            framesMax: 1,
             framesHold: 50,
         },
         punch: {
